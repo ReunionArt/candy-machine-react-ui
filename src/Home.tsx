@@ -172,6 +172,8 @@ const Home = (props: HomeProps) => {
                         borderRadius: 6,
                     }}
                 >
+                    <img src="mint.png"
+     alt="RIA geck collection" width={350}/>
                     {!wallet.connected ? (
                         <ConnectButton>Connect Wallet</ConnectButton>
                     ) : (
@@ -218,9 +220,9 @@ const Home = (props: HomeProps) => {
                     )}
                     <CrossMintButton
                         style={{ margin: "0 auto", width: "100%" }}
-                        collectionTitle="<TITLE_FOR_YOUR_COLLECTION>"
-                        collectionDescription="<DESCRIPTION_OF_YOUR_COLLECTION>"
-                        collectionPhoto="<OPT_URL_TO_PHOTO_COVER>"
+                        collectionTitle="<RIA Geck>"
+                        collectionDescription="<974 NFTs to help RIAD to promote Réunion Island Artists>"
+                        collectionPhoto="<fond.png>"
                     />
                 </Paper>
             </Container>
